@@ -479,9 +479,9 @@ public class FCMService extends FirebaseMessagingService implements PushConstant
     // if (soundOption) {
       // setNotificationSound(context, extras, mBuilder);
     // }
-	//mBuilder.setSound(android.provider.Settings.System.DEFAULT_RINGTONE_URI);
-	mBuilder.setSound(android.provider.Settings.System.DEFAULT_NOTIFICATION_URI);
-	//mBuilder.setDefaults(Notification.DEFAULT_SOUND);
+	mBuilder.setSound(android.provider.Settings.System.DEFAULT_RINGTONE_URI);
+	//mBuilder.setSound(android.provider.Settings.System.DEFAULT_NOTIFICATION_URI);
+    //mBuilder.setDefaults(Notification.DEFAULT_SOUND);
     /*
      *  LED Notification
      */
